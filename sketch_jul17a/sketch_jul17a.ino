@@ -13,6 +13,16 @@ void loop() {
 //  digitalWrite(8,LOW);
 //  digitalWrite(9,LOW);
 //  delay(1000);
+  for(int i=0; i<=0; i++){
+    digitalWrite(8,HIGH);
+    delay(780);
+    digitalWrite(8,LOW);
+    }
+   for(int j=0; j<=0; j++){
+    digitalWrite(9,HIGH);
+    delay(950);
+    digitalWrite(9,LOW);
+    }
 for(int i=0; i<256; i++){
   analogWrite(3,i);
   delay(10);
